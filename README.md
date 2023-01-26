@@ -10,8 +10,8 @@ As this project doesn't have any dependencies, and is a single file server, we w
 javac src/com/company/Server.java
 ```
 
-# Running the Server on Port 3000
+# Running the Server on Port 3000, serving the cookie file
 
 ```$xslt
-java -cp src com.company.Server 3000
+java -cp src com.company.Server 3000 cookie_file.txt
 ```
